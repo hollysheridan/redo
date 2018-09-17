@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Muli');
+
+* {margin:0;padding:0;box-sizing:border-box;}
+
+body{
+	font-size: 12px;
+}
+
+.wrapper{
+	padding-left: 5em;
+	padding-right: 5em;
+	padding-bottom: 0em;
+	padding-top: 0em;
+	margin: auto;
+}
+
+header{
+	padding: 1em 10em 0em 10em;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+
+#name{
+	font-family: 'Muli', sans-serif;
+	color: rgba(135,191,190, 0.6);
+	font-size: 1.5em;
+}
+
+h1{
+	font-family: 'Lora', serif;
+	font-size: 3em;
+}
+
+#intro_copy{
+	font-family: 'Lora', serif;
+	font-size: 2.2em;
+	text-align: center;
+	color: black;
+}
+
+.intro{
+	padding: 15em 15em 15em 15em;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+.section_header{
+	font-family: 'Lora', serif;
+	font-size: 6em;
+	text-align: left;
+	line-height: 0.4em;
+}
+
+.listheading{
+	font-family: 'Lora', serif;
+	font-size: 4em;
+	text-align: left;
+	color: white;
+}
+
+p{
+	font-family: 'Muli', sans-serif;
+	font-size: 1.5em;
+	color: white;
+}
+
+.what-i-do{
+	padding: 0em 0em 3em 0em;
+}
+
+.my-work{
+	padding: 0em 0em 3em 0em;
+}
+
+#example3{
+	text-align: center;
+}
+
+#listheadingexample3{
+	text-align: center;
+}
+
+#get-in-touch-header{
+	text-align: right;
+}
+
+.footercontent{
+	background-color: rgba(135,191,190, 0.6);	
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+.footer-column{
+	width: 70%;
+	float: left;
+	padding: 5em 1em 1em 10em;
+	text-align: right;
+}
+
+#footerimage{
+	width: 30%;
+	float: right;
+}
+
+#footerheader{
+	font-size: 1.8em;
+	font-family: 'Lora', serif;
+	color: black;
+}
+
+.emailtag{
+	text-decoration: underline;
+	color: black;
+	font-size: 1.5em;
+}
+
+#footertext{
+	font-size: 1.2em;
+	font-family: 'Muli', sans-serif;
+	color: black;
+	padding: 2em 0em 0em 10em;
+}
+
+.column{
+	width: 50%;
+	height: 25em;
+	padding: 7em 5em 2em 2em;
+	float: left;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#column1{
+	background-image: url(../images/concept5.jpg);
+	background-size: cover;
+}
+
+#column2{
+	background-image: url(../images/design2.jpg);
+	background-size: cover;
+}
+
+#column3{
+	background-image: url(../images/build1.jpg);
+	background-size: cover;
+}
+
+#column4{
+	background-image: url(../images/maintain.jpg);
+	background-size: cover;
+}
+
+#example1{
+	background-image: url(../images/example11.jpg);
+	background-size: cover;
+}
+
+#example2{
+	background-image: url(../images/example21.jpg);
+	background-size: cover;
+}
+
+#example3{
+	background-image: url(../images/example31.jpg);
+	background-size: contain;
+	width: 100%;
+	padding: 7em 17em 2em 17em;
+}
